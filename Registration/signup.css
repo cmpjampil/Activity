@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6, a {
   text-align:left;
   margin-left:40px;
   color:#fff;
+  padding: 10px;
 }
 .login-form {
   box-sizing:border-box;
@@ -58,6 +59,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 select{
 	padding:10px;
+  margin: 4px;
 	width:28%;
 	border-radius:5px;
 
@@ -67,6 +69,8 @@ sign-up{
   margin-left:-70%;
   cursor:pointer;
   text-decoration:underline;
+  width:  100px;
+  outline: none;
 }
 
 

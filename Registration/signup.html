@@ -6,7 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="signup.css">
+<script type="text/javascript" src="mainJS.js"></script>
 <form id="signup.html" action="profile.php" method="POST">  
+
 
 <div class="login">
   <div class="login-header">
@@ -15,8 +17,10 @@
   <div class="login-form">
     <h3> First Name</h3>
       <input type="text" name="firstname" placeholder="Enter First Name" required /><br>
+      <small>Must only contain alphabets</small>
       <h3> Last Name</h3>
       <input type="text" name="lastname" placeholder="Enter Last Name" required/><br>
+      <small>Must only contain alphabets</small>
       <h3> Email</h3>
       <input type="email" name="email" placeholder="Enter Email Address" required/>
       <h3> Password</h3>
